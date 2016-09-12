@@ -4,8 +4,8 @@ A Vagrant setup for testing things. Creates a Windows 10 and an Ubuntu Xenial ma
 
 ## Setup
 
-1. Download and install ![VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-2. Download and install ![Vagrant](https://www.vagrantup.com/downloads.html)
+1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+2. Download and install [Vagrant](https://www.vagrantup.com/downloads.html)
 3. Clone this repository:
 
 ```
