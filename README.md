@@ -11,7 +11,6 @@ A Vagrant setup for testing things. Creates a Windows 10 and an Ubuntu Xenial ma
 ```
 git clone https://github.com/NickMRamirez/sandbox.git
 ```
-
 4. Call: `vagrant up`
 
 ## Usage
@@ -19,11 +18,11 @@ git clone https://github.com/NickMRamirez/sandbox.git
 To remote into the Windows machine, use password *vagrant* after calling the `rdp` command:
 
 ```
-vagrant rdp
+vagrant rdp windows1
 ```
 
 To remote into Ubuntu, call `ssh`:
 
 ```
-vagrant ssh
+vagrant ssh linux1
 ```
