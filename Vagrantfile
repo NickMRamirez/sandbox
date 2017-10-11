@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
 	  machine.vm.network "private_network", type: "dhcp"
 	  machine.vm.hostname = "win2012r2"
 	  machine.vm.network "forwarded_port", host: 53389, guest: 3389
-    machine.vm.network "forwarded_port", host: 80, guest: 80
+    machine.vm.network "forwarded_port", host: 8080, guest: 80
 	  machine.vm.provision "shell", path: "aspnetwebsite.ps1"
   end
   
